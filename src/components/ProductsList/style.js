@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const MainSt = styled.main`
   max-width: 100vw;
-  max-height: 100vh;
+  padding-left: 2rem;
+
 
   @media (min-width: 1024px) {
     display: flex;
@@ -37,22 +38,24 @@ export const UlSt = styled.ul`
 `;
 
 export const LiSt = styled.li`
+  display: flex;
+  flex-direction: column;
   border: 1px solid #828282;
   text-align: center;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  height: 21rem;
   justify-content: space-between;
+  min-width: 280px;
+  margin-bottom: 1rem;
 
   @media (min-width: 768px) {
     height: 20rem;
+    min-width: 200px;
   }
 
   img {
     width: 11rem;
     height: 11rem;
+    margin: 0 auto;
 
     @media (min-width: 768px) {
       height: 9rem;

@@ -84,7 +84,6 @@ export const LiSt = styled.li`
 
   width: 100%;
 
-  height: 4rem;
 
   section {
     display: flex;
